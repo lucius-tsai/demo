@@ -10,5 +10,46 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "form_config": [
+    {
+      "id": "TC",
+      "year": 2021,
+      "version": 1,
+      "subjects": [
+        {
+          "id": "subjectOne",
+          "title": "Chapter I",
+          "fieldConfig": [
+            {
+              "title": "Section One",
+              "fields": [
+                {
+                  "type": "input",
+                  "id": "1.1",
+                  "inputConfig": {
+                    "placeholder": "請輸入標籤名稱",
+                    "required": true
+                  },
+                  "layoutConfig": {
+                    "type": "horizontal",
+                    "label": "標籤 1.1",
+                    "helper": "參考說明輸入關鍵字"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "form_info": [
+    {
+      "id": "TC",
+      "year": 2021,
+      "version": 1,
+      "title": "New Form"
+    }
+  ]
 }
